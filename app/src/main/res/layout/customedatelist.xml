@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:elevation="50dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ic_calendar"
+        android:id="@+id/profile"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Title"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+
+            android:fontFamily="@font/mclaren"
+            android:textSize="20sp"
+            android:id="@+id/lst_date"
+            />
+
+
+
+
+        <!--so our layout is set-->
+
+    </LinearLayout>
+
+</LinearLayout>
